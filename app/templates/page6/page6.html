@@ -1,13 +1,24 @@
 <div class="page6">
 
     <div class="body"><h1>Тести</h1>
-        <div><p>З яких частин складаються математичні моделі оптимізаційної задачі</p>
-            <md-radio-group ng-model="vm.page3.test">
-                <md-radio-button ng-value="1">з цільової функції</md-radio-button>
-                <md-radio-button ng-value="2">з цільової функції та обмежень</md-radio-button>
-                <md-radio-button ng-value="3">з вимог замовника</md-radio-button>
-                <md-radio-button ng-value="4">з обмежень</md-radio-button>
-            </md-radio-group></div>
+        <div><p>Як підрахувати вартість перевезення продукту від i-того пунтку відправника до j-того пункту
+            призначення</p>
+            <div class="formula-block">
+                <md-input-container class="md-block" flex-gt-sm="">
+                    <label>C</label>
+                    <input ng-model="page6.C" maxlength="1">
+                </md-input-container>
+                <md-input-container class="md-block" flex-gt-sm="">
+                    <label>i</label>
+                    <input ng-model="page6.i" maxlength="1">
+                </md-input-container>
+                <md-input-container class="md-block" flex-gt-sm="">
+                    <label>j</label>
+                    <input ng-model="page.j" maxlength="1" >
+                </md-input-container>
+            </div>
+        </div>
+
 
         <a href="" ng-click="vm.next()">Далі<i class="fas fa-angle-right"></i></a></div>
 

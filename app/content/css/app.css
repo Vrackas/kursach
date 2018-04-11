@@ -556,6 +556,8 @@
     margin: 0 auto;
     margin-bottom: 40px;
     text-align: justify; }
+  .page4 .body > div md-radio-button div span {
+    font-size: 15px; }
 
 .page4 ::-webkit-scrollbar {
   width: 0px; }
@@ -916,6 +918,18 @@
     margin: 0 auto;
     margin-bottom: 40px;
     text-align: justify; }
+  .page6 .body > div .formula-block {
+    width: 150px;
+    margin: 0 auto; }
+    .page6 .body > div .formula-block md-input-container {
+      width: 40px;
+      float: left;
+      margin: 4px;
+      background: white; }
+      .page6 .body > div .formula-block md-input-container .md-errors-spacer {
+        min-height: 0 !important; }
+    .page6 .body > div .formula-block md-input-container:nth-child(2), .page6 .body > div .formula-block md-input-container:nth-child(3) {
+      margin-top: 20px; }
 
 .page6 ::-webkit-scrollbar {
   width: 0px; }

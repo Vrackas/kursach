@@ -49,6 +49,23 @@
       margin-bottom: 40px;
       text-align: justify;
     }
+    .formula-block{
+      width: 150px;
+      margin: 0 auto;
+      md-input-container{
+        width: 40px;
+        float: left;
+        margin: 4px;
+        background: white;
+        .md-errors-spacer{
+          min-height: 0 !important;
+        }
+      }
+      md-input-container:nth-child(2), md-input-container:nth-child(3){
+        margin-top: 20px;
+
+      }
+    }
   }
 
 

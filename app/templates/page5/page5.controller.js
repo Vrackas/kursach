@@ -13,7 +13,12 @@
         vm.next = next;
 
         function next() {
+            if (vm.page5.test !== 1) {
+                toastr.warning('Мінімізуеться сумарна вартість перевезень', 'Увага');
+            } else if (vm.page5.test === 1) {
                 $state.go('page6')
+            }
+
         }
     }
 })();
