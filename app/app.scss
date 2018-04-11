@@ -1,0 +1,59 @@
+
+//templates
+@import "templates/page1/page1";
+@import "templates/page2/page2";
+@import "templates/page3/page3";
+@import "templates/page4/page4";
+@import "templates/page5/page5";
+@import "templates/page6/page6";
+@import "templates/page7/page7";
+@import "templates/page8/page8";
+@import "templates/page9/page9";
+@import "templates/page10/page10";
+@import "templates/page11/page11";
+@import "templates/page12/page12";
+@import "templates/page13/page13";
+@import "templates/page14/page14";
+@import "templates/page15/page15";
+@import "templates/page16/page16";
+@import "templates/page17/page17";
+
+//directives
+@import "directives/header_block/header_block";
+@import "directives/footer_block/footer_block";
+@import "directives/mobile_menu/mobile_menu";
+
+
+//componets
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.main-title {
+  color: #fff;
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-family: 'Relative Bold', Arial, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.main-link {
+
+  text: {
+    decoration: none;
+    overflow: ellipsis;
+  }
+  font: {
+    weight: 400;
+    family: 'Relative Medium', Arial, sans-serif;
+    size: 25px;
+  }
+  border-bottom: 0px solid #ffffff;
+  color: white;
+  margin-left: -20px;
+  white-space: nowrap;
+  cursor: pointer;
+}
