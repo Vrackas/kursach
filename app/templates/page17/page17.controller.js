@@ -2,12 +2,12 @@
     'use strict';
 
     angular.module('app')
-        .controller('Page3Controller', Page3Controller);
+        .controller('Page17Controller', Page17Controller);
 
 
-    Page3Controller.$inject = ['$state', 'toastr', '$scope'];
+    Page17Controller.$inject = ['$state', 'toastr', '$scope'];
 
-    function Page3Controller($state, toastr, $scope) {
+    function Page17Controller($state, toastr, $scope) {
         let vm = this;
 
         vm.next = next;
