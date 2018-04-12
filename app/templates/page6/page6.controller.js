@@ -19,7 +19,7 @@
                 toastr.success( 'Вірно');
                 $timeout( function(){
                     $state.go('page7')
-                }, 3000 );
+                }, 2000 );
             } else {
                 toastr.warning('Вірна відровідь Cij', 'Увага');
             }

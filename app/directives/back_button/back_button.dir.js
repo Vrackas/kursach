@@ -3,17 +3,17 @@
     'use strict';
 
     angular
-        .module('app.header', [])
-        .directive('headerBlock', headerBlock);
+        .module('app.back_button', [])
+        .directive('backButton', backButton);
 
-    headerBlock.$inject = [];
+    backButton.$inject = [];
 
-    function headerBlock() {
+    function backButton() {
         return {
             bindToController: true,
-            controller: 'HeaderBlockController',
+            controller: 'BackButtonController',
             controllerAs: 'vm',
-            templateUrl: 'directives/header_block/header_block.html',
+            templateUrl: 'directives/back_button/back_button.html',
             link: link,
             restrict: 'AE',
             scope: {

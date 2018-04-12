@@ -21,7 +21,7 @@
                  toastr.success( 'Вірно');
                  $timeout( function(){
                      $state.go('page5')
-                 }, 3000 );
+                 }, 2000 );
             }
         }
     }
