@@ -2131,6 +2131,37 @@
     margin: 0 auto;
     margin-bottom: 40px;
     text-align: justify; }
+  .page12 .body > div .formula-block {
+    width: 480px;
+    margin: 0 auto; }
+    .page12 .body > div .formula-block p {
+      width: auto; }
+    .page12 .body > div .formula-block div {
+      float: left; }
+    .page12 .body > div .formula-block div:nth-child(1) {
+      width: 85px; }
+      .page12 .body > div .formula-block div:nth-child(1) md-input-container:nth-child(1) {
+        float: left;
+        margin-left: 10px; }
+      .page12 .body > div .formula-block div:nth-child(1) p:nth-child(2) {
+        font-size: 60px;
+        margin-bottom: 0;
+        margin-left: 10px; }
+    .page12 .body > div .formula-block div:nth-child(2) {
+      margin-top: 65px; }
+    .page12 .body > div .formula-block div:nth-child(3) h2 {
+      margin-top: 63px; }
+    .page12 .body > div .formula-block div:nth-child(4) {
+      margin-top: 65px; }
+    .page12 .body > div .formula-block md-input-container {
+      width: 40px;
+      float: left;
+      margin: 4px;
+      background: white; }
+      .page12 .body > div .formula-block md-input-container .md-errors-spacer {
+        min-height: 0 !important; }
+    .page12 .body > div .formula-block md-input-container:nth-child(2), .page12 .body > div .formula-block md-input-container:nth-child(3) {
+      margin-top: 20px; }
 
 .page12 ::-webkit-scrollbar {
   width: 0px; }
@@ -2311,6 +2342,37 @@
     margin: 0 auto;
     margin-bottom: 40px;
     text-align: justify; }
+  .page13 .body > div .formula-block {
+    width: 480px;
+    margin: 0 auto; }
+    .page13 .body > div .formula-block p {
+      width: auto; }
+    .page13 .body > div .formula-block div {
+      float: left; }
+    .page13 .body > div .formula-block div:nth-child(1) {
+      width: 85px; }
+      .page13 .body > div .formula-block div:nth-child(1) md-input-container:nth-child(1) {
+        float: left;
+        margin-left: 10px; }
+      .page13 .body > div .formula-block div:nth-child(1) p:nth-child(2) {
+        font-size: 60px;
+        margin-bottom: 0;
+        margin-left: 10px; }
+    .page13 .body > div .formula-block div:nth-child(2) {
+      margin-top: 65px; }
+    .page13 .body > div .formula-block div:nth-child(3) h2 {
+      margin-top: 63px; }
+    .page13 .body > div .formula-block div:nth-child(4) {
+      margin-top: 65px; }
+    .page13 .body > div .formula-block md-input-container {
+      width: 40px;
+      float: left;
+      margin: 4px;
+      background: white; }
+      .page13 .body > div .formula-block md-input-container .md-errors-spacer {
+        min-height: 0 !important; }
+    .page13 .body > div .formula-block md-input-container:nth-child(2), .page13 .body > div .formula-block md-input-container:nth-child(3) {
+      margin-top: 20px; }
 
 .page13 ::-webkit-scrollbar {
   width: 0px; }

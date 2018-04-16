@@ -49,6 +49,54 @@
       margin-bottom: 40px;
       text-align: justify;
     }
+    .formula-block {
+      width: 480px;
+      margin: 0 auto;
+      p {
+        width: auto;
+      }
+      div {
+        float: left;
+      }
+      div:nth-child(1) {
+        width: 85px;
+        md-input-container:nth-child(1) {
+          float: left;
+          margin-left: 10px;
+        }
+        p:nth-child(2) {
+          font-size: 60px;
+          margin-bottom: 0;
+          margin-left: 10px;
+        }
+      }
+      div:nth-child(2) {
+        margin-top: 65px;
+      }
+      div:nth-child(3) {
+
+        h2 {
+          margin-top: 63px;
+        }
+
+      }
+      div:nth-child(4) {
+        margin-top: 65px;
+      }
+      md-input-container {
+        width: 40px;
+        float: left;
+        margin: 4px;
+        background: white;
+        .md-errors-spacer {
+          min-height: 0 !important;
+        }
+      }
+      md-input-container:nth-child(2), md-input-container:nth-child(3) {
+        margin-top: 20px;
+
+      }
+    }
   }
 
 
