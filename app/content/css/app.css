@@ -1114,7 +1114,7 @@
     margin-bottom: 40px;
     text-align: justify; }
   .page7 .body > div .formula-block {
-    width: 450px;
+    width: 480px;
     margin: 0 auto; }
     .page7 .body > div .formula-block p {
       width: auto; }
@@ -1131,6 +1131,11 @@
         margin-left: 10px; }
     .page7 .body > div .formula-block div:nth-child(2) {
       margin-top: 65px; }
+    .page7 .body > div .formula-block div:nth-child(3) md-input-container {
+      width: 100px;
+      margin-top: 67px; }
+      .page7 .body > div .formula-block div:nth-child(3) md-input-container md-select-value span {
+        color: black; }
     .page7 .body > div .formula-block div:nth-child(4) {
       margin-top: 65px; }
     .page7 .body > div .formula-block md-input-container {
@@ -1322,6 +1327,51 @@
     margin: 0 auto;
     margin-bottom: 40px;
     text-align: justify; }
+  .page8 .body > div .formula-block {
+    width: 600px;
+    margin: 0 auto; }
+    .page8 .body > div .formula-block p {
+      width: auto; }
+    .page8 .body > div .formula-block div {
+      float: left; }
+    .page8 .body > div .formula-block div:nth-child(1) {
+      width: 80px; }
+      .page8 .body > div .formula-block div:nth-child(1) md-input-container:nth-child(1) {
+        float: left;
+        margin-left: 10px; }
+      .page8 .body > div .formula-block div:nth-child(1) p:nth-child(2) {
+        font-size: 60px;
+        margin-bottom: 0;
+        margin-left: 10px; }
+    .page8 .body > div .formula-block div:nth-child(2) {
+      width: 80px; }
+      .page8 .body > div .formula-block div:nth-child(2) md-input-container:nth-child(1) {
+        float: left;
+        margin-left: 10px; }
+      .page8 .body > div .formula-block div:nth-child(2) p:nth-child(2) {
+        font-size: 60px;
+        margin-bottom: 0;
+        margin-left: 10px; }
+    .page8 .body > div .formula-block div:nth-child(3) md-input-container {
+      margin-top: 65px; }
+    .page8 .body > div .formula-block div:nth-child(3) md-input-container:nth-child(2), .page8 .body > div .formula-block div:nth-child(3) md-input-container:nth-child(3) {
+      margin-top: 85px; }
+    .page8 .body > div .formula-block div:nth-child(4) md-input-container {
+      width: 100px;
+      margin-top: 67px; }
+      .page8 .body > div .formula-block div:nth-child(4) md-input-container md-select-value span {
+        color: black; }
+    .page8 .body > div .formula-block div:nth-child(5) {
+      margin-top: 65px; }
+    .page8 .body > div .formula-block md-input-container {
+      width: 40px;
+      float: left;
+      margin: 4px;
+      background: white; }
+      .page8 .body > div .formula-block md-input-container .md-errors-spacer {
+        min-height: 0 !important; }
+    .page8 .body > div .formula-block md-input-container:nth-child(2), .page8 .body > div .formula-block md-input-container:nth-child(3) {
+      margin-top: 20px; }
 
 .page8 ::-webkit-scrollbar {
   width: 0px; }
@@ -1477,7 +1527,7 @@
     top: 15%;
     left: 50%;
     margin-left: -320px;
-    font-size: 50px; }
+    font-size: 30px; }
   .page9 .body a {
     text-decoration: none;
     position: absolute;
@@ -1498,10 +1548,22 @@
   height: 400px;
   text-align: center; }
   .page9 .body > div p {
-    width: 700px;
     margin: 0 auto;
-    margin-bottom: 40px;
     text-align: justify; }
+  .page9 .body > div div {
+    padding: 0 10px; }
+  .page9 .body > div div:nth-child(1) span, .page9 .body > div div:nth-child(2) span {
+    font-size: 50px; }
+  .page9 .body > div div:nth-child(3) {
+    margin-top: 52px; }
+    .page9 .body > div div:nth-child(3) span {
+      font-size: 17px;
+      margin-top: 10px; }
+  .page9 .body > div div:nth-child(4) md-input-container {
+    background: white;
+    margin-top: 50px; }
+    .page9 .body > div div:nth-child(4) md-input-container md-select-value span {
+      color: #303030; }
 
 .page9 ::-webkit-scrollbar {
   width: 0px; }
@@ -1862,6 +1924,33 @@
     margin: 0 auto;
     margin-bottom: 40px;
     text-align: justify; }
+  .page11 .body > div .formula-block {
+    width: 480px;
+    margin: 0 auto; }
+    .page11 .body > div .formula-block p {
+      width: auto; }
+    .page11 .body > div .formula-block div {
+      float: left; }
+    .page11 .body > div .formula-block div:nth-child(1) {
+      margin-top: 65px; }
+    .page11 .body > div .formula-block div:nth-child(2) md-input-container {
+      width: 100px;
+      margin-top: 67px; }
+      .page11 .body > div .formula-block div:nth-child(2) md-input-container md-select-value span {
+        color: black; }
+        .page11 .body > div .formula-block div:nth-child(2) md-input-container md-select-value span div {
+          margin-top: 0 !important; }
+    .page11 .body > div .formula-block div:nth-child(3) md-input-container {
+      margin-top: 65px; }
+    .page11 .body > div .formula-block md-input-container {
+      width: 40px;
+      float: left;
+      margin: 4px;
+      background: white; }
+      .page11 .body > div .formula-block md-input-container .md-errors-spacer {
+        min-height: 0 !important; }
+    .page11 .body > div .formula-block md-input-container:nth-child(2), .page11 .body > div .formula-block md-input-container:nth-child(3) {
+      margin-top: 20px; }
 
 .page11 ::-webkit-scrollbar {
   width: 0px; }
@@ -2920,12 +3009,12 @@
     font-size: 50px; }
   .page17 .body a {
     text-decoration: none;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
+    margin: 0 60px;
     color: #ffffff;
     text-transform: uppercase;
     font-size: 30px; }
+  .page17 .body a:hover {
+    text-decoration: underline; }
 
 .page17 .body > div {
   position: absolute;
@@ -2941,7 +3030,7 @@
     width: 700px;
     margin: 0 auto;
     margin-bottom: 40px;
-    text-align: justify; }
+    text-align: center; }
 
 .page17 ::-webkit-scrollbar {
   width: 0px; }

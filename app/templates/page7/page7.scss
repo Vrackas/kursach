@@ -50,7 +50,7 @@
       text-align: justify;
     }
     .formula-block{
-      width: 450px;
+      width: 480px;
       margin: 0 auto;
       p{
         width: auto;
@@ -72,6 +72,20 @@
       }
       div:nth-child(2){
         margin-top: 65px;
+      }
+      div:nth-child(3){
+
+        md-input-container{
+          width: 100px;
+          margin-top: 67px;
+          md-select-value{
+            span{
+              color: black;
+            }
+          }
+
+        }
+
       }
       div:nth-child(4){
         margin-top: 65px;

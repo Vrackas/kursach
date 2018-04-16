@@ -1,13 +1,76 @@
 <div class="page8">
 
-    <div class="body"><h1>Тести</h1>
-        <div><p>З яких частин складаються математичні моделі оптимізаційної задачі</p>
-            <md-radio-group ng-model="vm.page3.test">
-                <md-radio-button ng-value="1">з цільової функції</md-radio-button>
-                <md-radio-button ng-value="2">з цільової функції та обмежень</md-radio-button>
-                <md-radio-button ng-value="3">з вимог замовника</md-radio-button>
-                <md-radio-button ng-value="4">з обмежень</md-radio-button>
-            </md-radio-group></div>
+    <div class="body"><h1>Введіть межі підсумовування</h1>
+        <div><p>Як обчилити сумарну вартість перевезень від i-того пункту відравлення всім пунктам призначення</p>
+            <div class="formula-block">
+                <div>
+                    <md-input-container class="md-block" flex-gt-sm="">
+                        <label>n</label>
+                        <input ng-model="vm.page8.n0" maxlength="1">
+                    </md-input-container>
+                    <p>&sum;</p>
+                    <p style="float: left; width: auto">i =
+                        <md-input-container class="md-block" flex-gt-sm="" style="float: right">
+                            <label>i</label>
+                            <input ng-model="vm.page8.i0" maxlength="1">
+                        </md-input-container>
+                    </p>
+                </div>
+                <div>
+                    <md-input-container class="md-block" flex-gt-sm="">
+                        <label>m</label>
+                        <input ng-model="vm.page8.n1" maxlength="1">
+                    </md-input-container>
+                    <p>&sum;</p>
+                    <p style="float: left; width: auto">j =
+                        <md-input-container class="md-block" flex-gt-sm="" style="float: right">
+                            <label>j</label>
+                            <input ng-model="vm.page8.j0" maxlength="1">
+                        </md-input-container>
+                    </p>
+                </div>
+                <div>
+                    <md-input-container class="md-block" flex-gt-sm="">
+                        <label>C</label>
+                        <input ng-model="vm.page8.C" maxlength="1">
+                    </md-input-container>
+                    <md-input-container class="md-block" flex-gt-sm="">
+                        <label>i</label>
+                        <input ng-model="vm.page8.i1" maxlength="1">
+                    </md-input-container>
+                    <md-input-container class="md-block" flex-gt-sm="">
+                        <label>j</label>
+                        <input ng-model="vm.page8.j1" maxlength="1">
+                    </md-input-container>
+                </div>
+                <div><md-input-container>
+                    <label>Знак</label>
+                    <md-select ng-model="page8.symbol" >
+                        <md-option ng-click="vm.symbol(1)" value="1"><span>+</span></md-option>
+                        <md-option ng-click="vm.symbol(2)" value="2">*</md-option>
+                        <md-option ng-click="vm.symbol(3)" value="3">/</md-option>
+                        <md-option ng-click="vm.symbol(4)" value="4">-</md-option>
+                    </md-select>
+                </md-input-container>
+                </div>
+                <div>
+                    <md-input-container class="md-block" flex-gt-sm="">
+                        <label>X</label>
+                        <input ng-model="vm.page8.x" maxlength="1">
+                    </md-input-container>
+                    <md-input-container class="md-block" flex-gt-sm="">
+                        <label>i</label>
+                        <input ng-model="vm.page8.i2" maxlength="1">
+                    </md-input-container>
+                    <md-input-container class="md-block" flex-gt-sm="">
+                        <label>j</label>
+                        <input ng-model="vm.page8.j2" maxlength="1">
+                    </md-input-container>
+                </div>
+
+
+            </div>
+        </div>
         <back-button></back-button>
         <a href="" ng-click="vm.next()">Далі<i class="fas fa-angle-right"></i></a></div>
 

@@ -3,35 +3,35 @@
 
   //landing
 
-.body{
-  height: 100vh;
-  width: 100%;
-  margin: 0;
-  background: linear-gradient(130deg, #00025b 0%, #0e1061 40%, #5d79e0 100%);
-  box-sizing: inherit;
+  .body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(130deg, #00025b 0%, #0e1061 40%, #5d79e0 100%);
+    box-sizing: inherit;
 
-  h1{
-    position: absolute;
-    width: 640px;
-    text-align: center;
-    color: #ffffff;
-    top: 15%;
-    left: 50%;
-    margin-left: -320px;
-    font-size: 50px;
+    h1{
+      position: absolute;
+      width: 640px;
+      text-align: center;
+      color: #ffffff;
+      top: 15%;
+      left: 50%;
+      margin-left: -320px;
+      font-size: 50px;
 
+    }
+
+    a{
+      text-decoration: none;
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-size: 30px;
+    }
   }
-
-  a{
-    text-decoration: none;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 30px;
-  }
-}
 
   .body>div{
     position: absolute;
@@ -49,8 +49,80 @@
       margin-bottom: 40px;
       text-align: justify;
     }
-  }
+    .formula-block{
+      width: 600px;
+      margin: 0 auto;
+      p{
+        width: auto;
+      }
+      div{
+        float: left;
+      }
+      div:nth-child(1){
+        width: 80px;
+        md-input-container:nth-child(1){
+          float: left;
+          margin-left: 10px;
+        }
+        p:nth-child(2){
+          font-size: 60px;
+          margin-bottom: 0;
+          margin-left: 10px;
+        }
+      }
+      div:nth-child(2){
+        width: 80px;
+        md-input-container:nth-child(1){
+          float: left;
+          margin-left: 10px;
+        }
+        p:nth-child(2){
+          font-size: 60px;
+          margin-bottom: 0;
+          margin-left: 10px;
+        }
+      }
+      div:nth-child(3){
+        md-input-container{
+          margin-top: 65px;
+        }
+        md-input-container:nth-child(2), md-input-container:nth-child(3){
+          margin-top: 85px;
+        }
 
+      }
+      div:nth-child(4){
+
+        md-input-container{
+          width: 100px;
+          margin-top: 67px;
+          md-select-value{
+            span{
+              color: black;
+            }
+          }
+
+        }
+
+      }
+      div:nth-child(5){
+        margin-top: 65px;
+      }
+      md-input-container{
+        width: 40px;
+        float: left;
+        margin: 4px;
+        background: white;
+        .md-errors-spacer{
+          min-height: 0 !important;
+        }
+      }
+      md-input-container:nth-child(2), md-input-container:nth-child(3){
+        margin-top: 20px;
+
+      }
+    }
+  }
 
 
 

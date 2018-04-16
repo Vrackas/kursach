@@ -1,13 +1,24 @@
 <div class="page9">
 
-    <div class="body"><h1>Тести</h1>
-        <div><p>З яких частин складаються математичні моделі оптимізаційної задачі</p>
-            <md-radio-group ng-model="vm.page3.test">
-                <md-radio-button ng-value="1">з цільової функції</md-radio-button>
-                <md-radio-button ng-value="2">з цільової функції та обмежень</md-radio-button>
-                <md-radio-button ng-value="3">з вимог замовника</md-radio-button>
-                <md-radio-button ng-value="4">з обмежень</md-radio-button>
-            </md-radio-group></div>
+    <div class="body"><h1>Виберіть напрям оптимізації цільової функції</h1>
+        <div layout="row" layout-align="center">
+            <div layout="column"><p>n</p>
+                <span>&sum;</span>
+                <p>i = 0</p>
+            </div>
+            <div layout="column"><p>m</p>
+                <span>&sum;</span>
+                <p>j = 0</p>
+            </div>
+            <div layout="row"><p>C <span>ij</span> * X <span>ij</span> &rarr;</p></div>
+            <div><md-input-container>
+                <label>Напрям</label>
+                <md-select ng-model="page9.direct" >
+                    <md-option ng-click="vm.direct(1)" value="1">min</md-option>
+                    <md-option ng-click="vm.direct(2)" value="2">max</md-option>
+                </md-select>
+            </md-input-container></div>
+        </div>
         <back-button></back-button>
         <a href="" ng-click="vm.next()">Далі<i class="fas fa-angle-right"></i></a></div>
 

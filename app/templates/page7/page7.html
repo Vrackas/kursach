@@ -6,43 +6,52 @@
                 <div>
                     <md-input-container class="md-block" flex-gt-sm="">
                         <label>n</label>
-                        <input ng-model="vm.page6.i" maxlength="1">
+                        <input ng-model="vm.page7.n" maxlength="1">
                     </md-input-container>
                     <p>&sum;</p>
                     <p style="float: left; width: auto">j =
                         <md-input-container class="md-block" flex-gt-sm="" style="float: right">
                             <label>i</label>
-                            <input ng-model="vm.page6.i" maxlength="1">
+                            <input ng-model="vm.page7.i0" maxlength="1">
                         </md-input-container>
                     </p>
                 </div>
                 <div>
                     <md-input-container class="md-block" flex-gt-sm="">
                         <label>C</label>
-                        <input ng-model="vm.page6.C" maxlength="1">
+                        <input ng-model="vm.page7.C" maxlength="1">
                     </md-input-container>
                     <md-input-container class="md-block" flex-gt-sm="">
                         <label>i</label>
-                        <input ng-model="vm.page6.i" maxlength="1">
+                        <input ng-model="vm.page7.i1" maxlength="1">
                     </md-input-container>
                     <md-input-container class="md-block" flex-gt-sm="">
                         <label>j</label>
-                        <input ng-model="vm.page6.j" maxlength="1">
+                        <input ng-model="vm.page7.j1" maxlength="1">
                     </md-input-container>
                 </div>
-                <div>5678</div>
+                <div><md-input-container>
+                    <label>Знак</label>
+                    <md-select ng-model="page7.symbol" >
+                        <md-option ng-click="vm.symbol(1)" value="1"><span>+</span></md-option>
+                        <md-option ng-click="vm.symbol(2)" value="2">-</md-option>
+                        <md-option ng-click="vm.symbol(3)" value="3">/</md-option>
+                        <md-option ng-click="vm.symbol(4)" value="4">*</md-option>
+                    </md-select>
+                </md-input-container>
+                </div>
                 <div>
                     <md-input-container class="md-block" flex-gt-sm="">
                         <label>X</label>
-                        <input ng-model="vm.page6.C" maxlength="1">
+                        <input ng-model="vm.page7.x" maxlength="1">
                     </md-input-container>
                     <md-input-container class="md-block" flex-gt-sm="">
                         <label>i</label>
-                        <input ng-model="vm.page6.i" maxlength="1">
+                        <input ng-model="vm.page7.i2" maxlength="1">
                     </md-input-container>
                     <md-input-container class="md-block" flex-gt-sm="">
                         <label>j</label>
-                        <input ng-model="vm.page6.j" maxlength="1">
+                        <input ng-model="vm.page7.j2" maxlength="1">
                     </md-input-container>
                 </div>
 
