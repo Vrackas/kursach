@@ -2,10 +2,21 @@
 
     <div class="body"><h1>Побудова обмежень</h1>
         <div layout="column" ><p>Чи згідгно умов задачі наявний баланс попиту і виробництва?</p>
-            <div>formula</div>
+            <div layout="row" layout-align="center" style="margin-top: 0; margin-bottom: 70px">
+                <div layout="column"><p>m</p>
+                    <span>&sum;</span>
+                    <p>i = 0</p>
+                </div>
+                <div layout="row"><p>A <span>i</span>  =</p></div>
+                <div layout="column"><p>n</p>
+                    <span>&sum;</span>
+                    <p>j = 0</p>
+                </div>
+                <div layout="row"><p>B <span>j</span></p></div>
+            </div>
             <md-radio-group ng-model="vm.page15.test">
-                <md-radio-button ng-value="1">Так</md-radio-button>
-                <md-radio-button ng-value="2">Ні</md-radio-button>
+                <md-radio-button ng-value="1" style="margin-top: 0">Так</md-radio-button>
+                <md-radio-button ng-value="2" style="margin-top: 0">Ні</md-radio-button>
             </md-radio-group></div>
         <back-button></back-button>
         <a href="" ng-click="vm.next()">Далі<i class="fas fa-angle-right"></i></a></div>

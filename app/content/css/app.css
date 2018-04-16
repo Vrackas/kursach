@@ -2552,7 +2552,10 @@
     width: 700px;
     margin: 0 auto;
     margin-bottom: 40px;
-    text-align: justify; }
+    text-align: center; }
+  .page14 .body > div md-radio-button p {
+    margin-bottom: 0;
+    text-align: center; }
 
 .page14 ::-webkit-scrollbar {
   width: 0px; }
@@ -2733,6 +2736,20 @@
     margin: 0 auto;
     margin-bottom: 40px;
     text-align: justify; }
+  .page15 .body > div div:nth-child(1) p, .page15 .body > div div:nth-child(3) p {
+    width: auto;
+    margin-bottom: 0; }
+  .page15 .body > div div:nth-child(1) span, .page15 .body > div div:nth-child(3) span {
+    font-size: 50px !important; }
+  .page15 .body > div div:nth-child(2), .page15 .body > div div:nth-child(4) {
+    margin-top: 52px; }
+    .page15 .body > div div:nth-child(2) span, .page15 .body > div div:nth-child(4) span {
+      font-size: 17px;
+      margin-top: 10px; }
+    .page15 .body > div div:nth-child(2) p, .page15 .body > div div:nth-child(4) p {
+      width: auto; }
+  .page15 .body > div md-radio-button div {
+    margin-top: 0 !important; }
 
 .page15 ::-webkit-scrollbar {
   width: 0px; }

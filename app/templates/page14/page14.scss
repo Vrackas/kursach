@@ -47,7 +47,13 @@
       width:700px;
       margin: 0 auto;
       margin-bottom: 40px;
-      text-align: justify;
+      text-align: center;
+    }
+    md-radio-button{
+      p{
+        margin-bottom: 0;
+        text-align: center;
+      }
     }
   }
 
