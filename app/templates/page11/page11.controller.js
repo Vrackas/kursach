@@ -23,7 +23,7 @@
             console.log($rootScope.symbol)
             if (vm.page11 == undefined || $rootScope.symbol === undefined  || vm.page11.X === undefined || vm.page11.i === undefined || vm.page11.j === undefined || vm.page11.O === undefined) {
                 toastr.warning('Заповніть усі поля', 'Увага');
-               ;
+
 
             } else if ($rootScope.symbol === 1 && vm.page11.X === 'x' && vm.page11.i === 'i' && vm.page11.j === 'j' && vm.page11.O === '0') {
                 toastr.success('Вірно');
