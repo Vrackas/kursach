@@ -180,6 +180,8 @@
     .page2 .body div p {
       width: 700px;
       margin: 0 auto; }
+    .page2 .body div span {
+      font-size: 12px; }
   .page2 .body h1 {
     position: absolute;
     width: 640px;
@@ -3260,6 +3262,20 @@ a.back_button {
   text-transform: uppercase;
   font-size: 30px;
   width: 120px !important; }
+
+.task_condition {
+  width: 18%;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  box-shadow: 25px 25px 10px rgba(0, 0, 0, 0.5); }
+  .task_condition h2 {
+    color: white;
+    font-size: 20px; }
+  .task_condition p {
+    color: white;
+    font-size: 14px;
+    text-shadow: 4px 3px 0px #000000, 0 0 1em #5e5e5e; }
 
 ::-webkit-scrollbar {
   width: 0px; }
