@@ -50,8 +50,44 @@
       text-align: justify;
     }
     .formula-block{
-      width: 150px;
+      width: 480px;
       margin: 0 auto;
+      p{
+        width: auto;
+      }
+      div{
+        float: left;
+      }
+
+      div:nth-child(1){
+        margin-top: 65px;
+      }
+      div:nth-child(2){
+
+        md-input-container{
+          width: 100px;
+          margin-top: 67px;
+          md-select-value{
+            span{
+              color: black;
+              div{
+                margin: 0;
+              }
+            }
+          }
+
+        }
+
+      }
+      div:nth-child(3){
+        md-input-container{
+            margin-top: 65px;
+        }
+        md-input-container:nth-child(2), md-input-container:nth-child(3){
+          margin-top: 85px;
+
+        }
+      }
       md-input-container{
         width: 40px;
         float: left;

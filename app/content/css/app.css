@@ -924,8 +924,25 @@
     margin-bottom: 40px;
     text-align: justify; }
   .page6 .body > div .formula-block {
-    width: 150px;
+    width: 480px;
     margin: 0 auto; }
+    .page6 .body > div .formula-block p {
+      width: auto; }
+    .page6 .body > div .formula-block div {
+      float: left; }
+    .page6 .body > div .formula-block div:nth-child(1) {
+      margin-top: 65px; }
+    .page6 .body > div .formula-block div:nth-child(2) md-input-container {
+      width: 100px;
+      margin-top: 67px; }
+      .page6 .body > div .formula-block div:nth-child(2) md-input-container md-select-value span {
+        color: black; }
+        .page6 .body > div .formula-block div:nth-child(2) md-input-container md-select-value span div {
+          margin: 0; }
+    .page6 .body > div .formula-block div:nth-child(3) md-input-container {
+      margin-top: 65px; }
+    .page6 .body > div .formula-block div:nth-child(3) md-input-container:nth-child(2), .page6 .body > div .formula-block div:nth-child(3) md-input-container:nth-child(3) {
+      margin-top: 85px; }
     .page6 .body > div .formula-block md-input-container {
       width: 40px;
       float: left;
